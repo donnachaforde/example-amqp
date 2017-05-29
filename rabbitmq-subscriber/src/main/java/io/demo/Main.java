@@ -24,9 +24,9 @@ public class Main
     public static void main(String[] args) throws InterruptedException
     {
         System.out.println("**************************************************************************************");
-        System.out.println("Starting Message Publisher....");
+        System.out.println("Starting Message Subscriber....");
         SpringApplication.run(Application.class, args);
-        System.out.println("Finished Message Publisher.");
+        System.out.println("Finished Message Subscriber.");
         System.out.println("**************************************************************************************");
     }
 
