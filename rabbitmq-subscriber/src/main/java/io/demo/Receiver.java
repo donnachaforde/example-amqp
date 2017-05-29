@@ -4,25 +4,19 @@ package io.demo;
  *
  */
 
-import java.util.concurrent.CountDownLatch;
-
 /**
- * Created by dforde on 28/08/2015.
+ * Receiver - Callback receiver class.
+ *
+ * @author Donnacha Forde
+ * @version Version 0.1 Sep 2015
+ * @since X0.0.1
  */
 public class Receiver
 {
 
-    private CountDownLatch latch = new CountDownLatch(1);
-
 	public void receiveMessage(String message)
 	{
 		System.out.println("Received <" + message + ">");
-		latch.countDown();
-    	}
-
-   	public CountDownLatch getLatch()
-        {
-    		return latch;
-    	}
+    }
 
 }
