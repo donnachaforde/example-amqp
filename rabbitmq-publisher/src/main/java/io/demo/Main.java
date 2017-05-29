@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Main - <desc>
+ * Main - SpringBoot startup hook.
  *
  * @author Donnacha Forde
  * @version Version 0.1 Sep 2015
