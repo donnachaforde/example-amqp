@@ -56,7 +56,8 @@ public class Application implements CommandLineRunner
      *
      * @return - new TemperatureSensor instance.
      */
-    public static Application createInstance() {
+    public static Application createInstance() 
+    {
         return new Application();
     }
 
@@ -98,9 +99,8 @@ public class Application implements CommandLineRunner
     {
         System.out.println("Waiting five seconds...");
         Thread.sleep(5000);
+        
         System.out.println("Starting message loop...");
-
-
         for ( ; ;)
         {
             System.out.println("Sending 10 messages...");
