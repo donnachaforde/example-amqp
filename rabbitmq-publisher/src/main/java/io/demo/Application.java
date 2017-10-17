@@ -29,7 +29,7 @@ public class Application implements CommandLineRunner
 {
     //-------------------------------------------------------------------------
     // member vars
-                                                                                                                                                                        final static String queueName = "spring-boot";
+    final static String queueName = "spring-boot";
 
     @Autowired
     RabbitTemplate rabbitTemplate;
